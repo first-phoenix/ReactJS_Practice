@@ -15,7 +15,10 @@
     <div id="example"></div>
     <!-- "text/babel" is required as it is jsx -->
     <script type="text/babel">
-        ReactDOM.render(
+
+        let Swaraj = React.createClass({ render:function(){
+        <h3>This is a component</h3>
+        } }); ReactDOM.render(
         <h1>Hello Swaraj</h1>, document.getElementById("example") );
     </script>
 
